@@ -21,7 +21,7 @@ exports:
     port: 1883
     username: null
     password: null
-    topic: "SunGather/{serial_number}"
+    # topic: "SunGather/{serial_number}"
     homeassistant: True
     ha_sensors:
       - name: "Daily Generation"
