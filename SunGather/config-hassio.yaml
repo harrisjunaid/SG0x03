@@ -14,7 +14,7 @@ inverter:
 exports:
   - name: webserver
     enabled: True
-    port: 1234
+    port: 8099
   - name: mqtt
     enabled: True
     host: null
