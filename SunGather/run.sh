@@ -53,7 +53,7 @@ yq -i "
 
 yq -i "
   (.exports[] | select(.name == \"webserver\") | .enabled) = True |
-  (.exports[] | select(.name == \"webserver\") | .port) = 8099
+  (.exports[] | select(.name == \"webserver\") | .port) = 1234
 " /share/SunGather/config0x03.yaml
 
 source ./venv/bin/activate
